@@ -1,0 +1,74 @@
+#intro{
+  text-align: center;
+  margin: 5%;
+}
+#main-title{
+  font-family: 'Rubik Mono One';
+}
+#intro-text{
+  font-size: 170%;
+  font-family: 'Covered By Your Grace';
+}
+.card{
+  border: none;
+  float: none;
+}
+.row{
+  margin-bottom: 3%;
+}
+.card-img {
+  width: 100%;
+  height: 30vw;
+  object-fit: cover;
+}
+.card-title{
+  font-family: 'Press Start 2P';
+}
+.card-text{
+  font-family: 'Bad Script';
+}
+#body{
+  margin: 3%;
+}
+li{
+  margin-top: 3%;
+  font-size: 120%;
+  font-family: 'Bad Script';
+}
+#home{
+  font-family: 'Press Start 2P';
+}
+#cardg-h1{
+  font-size: 130%;
+}
+.card-video #cardg-h1{
+  color: black;
+}
+.card-video .card-text{
+  color: black;
+}
+#too-white{
+  color: black;
+}
+#ch2q{
+  visibility: visible;
+}
+.answer{
+  color: rgb(10, 204, 204);
+}
+#twitter{
+ height: 25vw;
+}
+#instagram{
+  height: 19vw;
+}
+#gmail{
+  height: 25%;
+  margin-left: 5%;
+}
+#ch2.2q{
+  margin-top: 3%;
+}
+#short{
+  font-weight: bold;
+}

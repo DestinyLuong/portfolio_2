@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Bad+Script|Press+Start+2P|Rubik+Mono+One|Covered+By+Your+Grace|Unica+One|Bad+Script&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="compsci.js"></script>
+  </head>
+  <body>
+    <div class="pos-f-t">
+    <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-light p-4">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a id="home" class="navbar-brand" href="index.html">Home</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="compsci.html">Comp Sci<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutme.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Contacts</a>
+          </li>
+        </ul>
+    </div>
+  </nav>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+      </span>
+    </div>
+  </div>
+  <nav class="navbar navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+  </div>
+
+   <div id= tblOfContents">   
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title">Table of Contents</h1>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown button
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#ch3.2q">3.2</a>
+                <a class="dropdown-item" href="#ch3.3q">3.3</a>
+                <a class="dropdown-item" href="#ch3.4q">3.4</a>
+                <a class="dropdown-item" href="#ch3.5q">3.5</a>
+                <a class="dropdown-item" href="#ch3.6q">3.6</a>
+                <a class="dropdown-item" href="#ch3.7q">3.7</a>
+                <a class="dropdown-item" href="#ch3.8q">3.8</a>
+                <a class="dropdown-item" href="#ch3.9q">3.9</a>
+                <a class="dropdown-item" href="#ch3.10q">3.10</a>
+                <a class="dropdown-item" href="#ch3.11q">3.11</a>
+              </div>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+            
+  <div id= "ch3.2q">   
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title">Chapter 3.2 Questions</h1>
+            <p>
+              Q1. Explain the meaning of the statements shown here, both in AP CSP pseudocode and App Inventor. For example, suppose the variable X has the value 10 before the statement is executed. What value would it have after the statement is executed.
+            </p>
+            <img src="media/example.png">
+            <p class="answer">
+              A1. The value of X would be set to the initial X value plus 1. In app inventor this would mean the value of the variable called X is being added to 1 and that value is then stored once again in the variable X. The value X after the execution of this code would be 11.
+            </p>
+            <p>
+              Q2. One aspect of abstraction is that it helps to reduce details to focus on what's relevant. How does the use of a variable, such as dotsize, instead of a value, such as '5', help to reduce detail and focus on what is essential in this program.
+            </p>
+            <p class="answer">
+              A2. It helps as you are able to view 5 as not just a number now but as a value for the size of a dot, which can then be manipulated and used.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="ch3.3q">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title">Chapter 3.3 Questions</h1>
+            <p>
+              Q1. Decode this message by converting it from binary to ASCII: 1000001 1110000 1110000 0100000 1001001 1101110 1110110 1100101 1101110 1110100 1101111 1110010 0100000 1010010 1001111 1000011 1001011 1010011 0100001 Hint: You will need to convert from binary to decimal and then from decimal to ASCII.
+            </p>
+            <p class="answer">
+              A1. Decimal = 65 112 112 32 73 110 118 101 110 116 111 114 32 82 79 67 75 33
+            </p>
+            <p class="answer">
+               ASCII = App Inventor ROCKS!
+            </p>
+            <p>
+              Q2. Describe what it means to say that JPEG is a lossy compression technique and whether or not it affects the quality of camera pictures.
+            </p>
+            <p class="answer">
+              A2.  JPEG is a lossy compression technique meaning it compresses an image to save memory by compressing it's pixels, which causes it to lose it's quality permanently.
+            </p>
+            <p>
+              Q3. Give a specific example of a binary sequence that can represent more than one type of data -- e.g., a number, a color, a character -- and describe how to interpret its different values.
+            </p>
+            <p class="answer">
+              A3. ______ is an example of a binary sequence that can represent more than one type of data. The type of data changes in certain contexts, if the binary sequence is ___________-. 
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div id="ch3.4q">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title">Chapter 3.4 Questions</h1>
+            <p>
+              Q1. For enhancement #5 (the if block exercise) give a brief description of your solution to this problem. Provide a screenshot of your code -- the revised blocks -- and describe how the if/else block works to solve the problem in this case. If appropriate, include a description of any significant problems or bugs you encountered in solving this problem.  App Inventor now has a Download Blocks as Image feature (right click on the white space in the blocks editor to choose) that also can be used to take a screenshot of all of your code or the Windows snipping tool can be used.
+            </p>
+            <p class= "answer">
+              A1. My teammate and I wrote an if/else statement which compares the value of the pen size, which increments or decrements as you click the size up or size down button, to the 0. If the pen size is less than 0, then the pen size will set to 0, if not the function will continue as is. This solves the problem as the pen size will never become less than 0, as the if/else statement catches and changes it before it does.
+            </p>
+            <img src="media/paintPalOne.png">
+            <p>
+              Q2. When you use the Camera component to take a picture as the Canvas background, explain why the picture goes away when the app is restarted. HINT: Think about the different hardware components we talked about in an earlier lesson and where on the device the picture is stored. What do you think could be done to prevent the picture from disappearing when the app is restarted?
+            </p>
+            <p class="answer">
+              A2. The picture is stored within the RAM temporarily, thus when the app is restarted that memory is wiped and renewed. We can prevent it from erasing by instructing the app to save the data in a more permanent spot, such as in the ROM or in a database.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div id="ch3.5q">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title">Chapter 3.5 Questions</h1>
+            <p>
+              Q1.The Wikipedia article on refactoring talks about code smell and one motivation for engaging in refactoring. What is code smell? Describe briefly two examples of "code smell" and how refactoring would eliminate them.
+            </p>
+            <p class="answer">
+              A1. Code smell is a trait of a program that may indicate that the code has a problem. For example, it is too long or is too similar to another program near it. Refactoring can make the code become shorter and .
+            </p>
+            <p>
+              Q2. Insert a screenshot of the procedure from your app below.
+            </p> 
+            <p class="answer">
+              A2. 
+            </p>
+             <p>
+               Q3. What are the advantages of using procedural abstraction? Try to name at least 2 advantages.
+            </p> 
+            <p class="answer">
+              A3. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="ch3.6q">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title">Chapter 3.6 Questions</h1>
+            <p>
+              Q1. (POGIL) Describe an algorithm for identifying the card that was flipped.
+            </p>
+            <p class="answer">
+              A1. Odd Parity = If there are any face up cards in a row or column that add up to an even number, add another parity card to make it odd. After the card is flipped, look for any row or column that has an even amount of cards face up: the card in the row and column with an even number of face up cards is the one that was flipped over.
+            </p>
+            <p class="answer">
+              Even Parity = Do the same as the odd except instead add parity cards so that the face up cards add to an even number. After a card has been flipped, check for cards in a row or column that add up to an odd number: the card that is in the row and column that has an odd number of face up cards is the one that was flipped.
+            </p>
+            <p>
+              Q2. (POGIL) The card "trick" shows that it is always possible to identify the card that was flipped as long as only one card was flipped. Would it be possible always to determine if an error occurred if two cards were flipped? 
+            </p>
+            <p class="answer">
+             A2. It is possible if the cards flipped are in different row and columns, else you'd have to use the checksum method.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="ch3.7q">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title">Chapter 3.7 Questions</h1>
+            <p>
+              Q1. Explain how the error card trick from the Error Detection lesson uses a parity scheme. Was it an even or odd parity scheme?
+            </p>
+            <p class= "answer">
+              A1. The error card trick checks the number of odd or even cards to determine whether an error has occured, making it a parity scheme. It can be either an even or odd scheme, it depends on the cards placed.
+            </p>
+            <p>
+              Q2. What are some of the limitations of using parity bits for error detection?
+            </p>
+            <p class= "answer">
+              A2.
+            </p>
+            <p>
+              Q3. Another type of error detection is a check sum. Research what a check sum is and then describe it in your own words. Can a check sum identify where an error occurs?
+            </p>
+            <p class= "answer">
+              A3. 
+            </p>
+            <p>
+              Q4. (Optional) Explain in your own words the difference between error detection and error correction. Describe how the error correction process used in the video above allows the computer to fix errors.
+            </p>
+            <p class= "answer">
+              A4. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="ch3.8q">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title">Chapter 3.8 Questions</h1>
+            <p>
+              Q1. How are lists used in this app? Why is a list a useful data abstraction or an abstract data type (ADT) in programming? Is it easy to add new destinations to the tour?   
+            </p>
+            <p class="answer">
+              A1. 
+            </p>
+             <p>
+              Q2. How do APIs simplify complex programming tasks? Pick an app that you use on your device (e.g. Twitter, Google Maps) and see whether it provides an API and some of the functions you can control with it. Describe your results below.
+            </p>
+            <p class="answer">
+              A2. 
+            </p>
+             <p>
+              Q3. How is GPS used in this app? Do some research to find out how GPS works and describe it here in a couple sentences.
+            </p>
+            <p class="answer">
+              A3. 
+            </p>
+             <p>
+              Q4. Insert screenshots of the enhancements that you made below and describe how they work.
+            </p>
+            <p class="answer">
+              A4. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="ch3.9q">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title">Chapter 3.9 Questions</h1>
+           <p>
+              Q1. What does it mean to say that data is 'persistent'?
+            </p>
+            <p class="answer">
+             A1. 
+            </p>
+            <p>
+              Q2. What's the difference, in terms of where data is located, for data stored in a global variable vs. data stored in a database?
+            </p>
+            <p class="answer">
+              A2. 
+            </p>
+            <p>
+              Q3. Include screenshots and explanations of your enhancements.
+            </p>
+            <p class="answer">
+              A3. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div id="ch3.10q">
+  <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title">Chapter 3.10 Questions</h1>
+            <p id="short">Short Answer</p>
+            <p>
+              Q1. What is metadata? Give an example of how a piece of metadata could be used to increase the usefulness of an image or document.
+            </p>
+            <p class="answer">
+              A1.
+            </p>
+            <p>
+              Q2. What is a model?
+            </p>
+            <p class="answer">
+              A2. 
+            </p>
+            <p>
+              Q3. What's the difference between a raster image and an ASCII representation of a text document?
+            </p>
+            <p class="answer">
+              A3. 
+            </p>
+            <p>
+              Q4. What are filename extensions? What are they used for?
+            </p>
+            <p class="answer">
+              A4. 
+            </p>
+             <p>
+              Q5. What is lossless representation? What is lossy representation? What are the trade-offs in using each representation?
+            </p>
+            <p class="answer">
+              A5. 
+            </p>
+             <p>
+              Q6. What is steganography and what is it used for? Describe in your own words the steganography algorithm used in the activity.
+            </p>
+            <p class="answer">
+              A6. 
+            </p>
+             <p>
+              Q7. What would you have to do to delete a document from your computer so that it could not possibly be read by anyone else?
+            </p>
+            <p class="answer">
+              A7. 
+            </p>
+             <p>
+              Q8. What is free and open source software? Provide an example.
+            </p>
+            <p class="answer">
+              A8. 
+            </p>
+            <p id="short">Free Response</p>
+             <p>
+              Q1. How has retouching become a controversial issue? Give an example.
+            </p>
+            <p class="answer">
+              A1. 
+            </p>
+            <p>
+              Q2. Would you rather own a camera (or camera phone) with a higher number of megapixels or lower? Explain.
+            </p>
+            <p class="answer">
+              A2. 
+            </p>
+            <p>
+              Q3. Other than digital images, what might be an example of a computer model? Explain your answer based on the definition of a model.
+            </p>
+            <p class="answer">
+              A3. 
+            </p>
+            <p>
+              Q4. The code that implements App Inventor is open source and its impact on education is obvious. Find another example of open source software and describe its positive impact on education, business or society.
+            </p>
+            <p class="answer">
+              A4. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+ </body>
+</html>
